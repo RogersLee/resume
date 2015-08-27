@@ -1,0 +1,566 @@
+/*public*/
+html,body {
+	width:100%;
+	height:100%;
+	position:absolute;
+	margin:0px 0px 0px 0px;
+
+	
+}
+body {
+	margin: 0px auto;
+	padding: 0px auto;
+	position:absolute; 
+}
+
+/*home*/
+#home {
+	background:white;
+	width:100%;
+	height:670px;
+	min-width:1140px;
+	min-height: 600px;	
+
+}
+#center {
+	margin: 0px auto;
+	height:300px;
+	min-height: 600px;
+	text-align: center;
+	width:1140px;
+	
+}
+.homename {
+	position: absolute;
+	padding-top: 200px;
+	padding-left:290px;
+	margin-bottom:0px;
+	font-size:55px;
+	color:black;
+	font-family: 'Courier New', Courier, monospace;
+	width: 600px;
+}
+.homename span {
+	border-bottom:5px solid #CF2822
+}
+.rogers {
+	font-size:30px;
+	font-style:italic;
+	font-family: 'Comic Sans MS', cursive;
+	margin-top:15px;
+	color:rgb(190,190,190);
+	width: 600px;
+}
+
+/*float_banner*/
+#float_banner {
+	background-color:#DEEADE;
+	position:absolute;
+	top:0;
+	width:100%;
+	height:auto;
+	min-width: 1140px;
+	line-height:20px;
+	text-align:center;
+	z-index: 1;
+	font-family: 'Microsoft Yahei', Arial, Helvetica, sans-serif;
+}
+#float_banner a{
+	text-decoration: none;
+	padding:0 25px; 
+	font-size:16px; 
+	cursor:pointer; 
+	z-index: 1; 
+	color:black;
+}
+#float_banner a:hover{
+	color:#5C92FA;
+}
+
+.container{margin:0 auto; width:1140px; height:100%;z-index:0;}
+.fl {
+	float:left;
+	font-size:16px;
+	color:black;
+	line-height:50px;
+}
+.fr {
+	line-height:50px;
+	float:right;
+}
+
+/*intro*/
+#intro {
+	width:100%;
+	height:670px;
+	background:rgb(41,128,185);
+	color:white;
+	background-size:cover;
+	font-family: 'Microsoft Yahei', Arial, Helvetica, sans-serif;
+	min-height:670px;
+	min-width: 1140px;
+
+}
+#introBox {
+	margin:0 auto;
+	background:rgb(41,128,185);
+	color:white;
+	width:1140px;
+	background-size:cover;
+	font-family: 'Microsoft Yahei', Arial, Helvetica, sans-serif;
+	
+}
+
+#basic-information {
+	top:200px;
+	float:left ;
+	width:350px;
+	margin:13% 0 90px 10%;
+	z-index: 0;
+}
+#basic {
+	display:inline-block;
+}
+.tdsize {
+	font-size:30px;
+}
+#information {
+	line-height:42px;
+	font-size: 17px;
+
+}
+#information ul {
+	list-style:none;
+	padding-left: 0px
+}
+
+
+#edu {
+	float:left;
+	width:330px;
+	margin: 13% 0 90px 28%;
+	z-index: 0;
+}
+#education {
+	display:inline-block;
+} 
+#education img {
+	width:130px;
+	height:135px
+}
+#collage {
+	border-left: 4px solid #ccc;
+	font-size: 17px;
+
+}
+.work-exp-list__point1 {
+	position: relative;
+	padding-left: 15px;
+	margin: 15px 0;
+	line-height: 26px;
+}
+.work-exp-list__point__ico {
+	width: 18px;
+	height: 18px;
+	border: 3px solid #fff;
+	border-radius: 12px;
+	background: white;
+	position: absolute;
+	left: -14px;
+	top: 0;
+}
+.work-exp-list__company__body {
+	margin-left:40px
+}
+.work-exp-list__point2 {
+	position: relative;
+	padding-left: 15px;
+	margin: 50px 0 0 0 ;
+	line-height: 26px;
+}
+
+
+/*skill*/
+#skill {
+	background: #e7ecea;
+	color: #74777b;
+	font-weight: 400;
+	font-family: Arial,'Microsoft Yahei',  Helvetica, sans-serif;
+	width:100%;
+	height:670px;
+	min-width: 1140px;
+}
+a {
+	color: #2CC185;
+	text-decoration: none;
+	outline: none;
+}
+
+@font-face {
+	font-weight: normal;
+	font-style: normal;
+	font-family: 'stroke7pixeden';
+	src:url('../fonts/stroke7pixeden/stroke7pixeden.eot?u58ytb');
+	src:url('../fonts/stroke7pixeden/stroke7pixeden.eot?#iefixu58ytb') format('embedded-opentype'),
+		url('../fonts/stroke7pixeden/stroke7pixeden.woff?u58ytb') format('woff'),
+		url('../fonts/stroke7pixeden/stroke7pixeden.ttf?u58ytb') format('truetype'),
+		url('../fonts/stroke7pixeden/stroke7pixeden.svg?u58ytb#stroke7pixeden') format('svg');
+}
+
+.tabs {
+	position: relative;
+	margin: 0 auto;
+	font-weight: 300;
+	font-size: 1.3em;
+
+}
+
+
+.tabs nav {
+	text-align: center;
+
+}
+
+.tabs nav ul {
+	position: relative;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: flex;
+	margin: 0 auto;
+	padding: 0;
+	max-width: 1200px;
+	list-style: none;
+	-ms-box-orient: horizontal;
+	-ms-box-pack: center;
+	-webkit-flex-flow: row wrap;
+	-moz-flex-flow: row wrap;
+	-ms-flex-flow: row wrap;
+	flex-flow: row wrap;
+	-webkit-justify-content: center;
+	-moz-justify-content: center;
+	-ms-justify-content: center;
+	justify-content: center;
+}
+
+.tabs nav ul li {
+	position: relative;
+	z-index: 1;
+	display: block;
+	margin: 0;
+	text-align: center;
+	-webkit-flex: 1;
+	-moz-flex: 1;
+	-ms-flex: 1;
+	flex: 1;
+}
+
+.tabs nav a {
+	position: relative;
+	display: block;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	line-height: 2.5;
+}
+
+.tabs nav a span {
+	vertical-align: middle;
+	font-size: 0.75em;
+}
+
+.tabs nav li.tab-current a {
+	color: #74777b;
+}
+
+.tabs nav a:focus {
+	outline: none;
+}
+
+/* Icons */
+.icon::before {
+	z-index: 10;
+	display: inline-block;
+	margin: 0 0.4em 0 0;
+	vertical-align: middle;
+	text-transform: none;
+	font-weight: normal;
+	font-variant: normal;
+	font-size: 1.3em;
+	font-family: 'stroke7pixeden';
+	line-height: 1;
+	speak: none;
+	-webkit-backface-visibility: hidden;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+.icon-upload::before {
+	content: "\e68a";
+}
+.icon-tools::before {
+	content: "\e60a";
+}
+.icon-coffee::before {
+	content: "\e669";
+}
+.icon-display::before {
+	content: "\e65e";
+}
+.icon-box::before {
+	content: "\e674";
+}
+.content-wrap {
+	position: relative;
+}
+
+.content-wrap section {
+	display: none;
+	margin: 0 auto;
+	padding: 1em;
+	max-width: 1200px;
+	text-align: left;
+}
+
+.content-wrap section.content-current {
+	display: block;
+}
+
+.content-wrap section p {
+	margin: 0;
+	padding: 0.75em 0;
+	color: rgba(40,44,42,0.05);
+	font-weight: 900;
+	font-size: 4em;
+	line-height: 1;
+}
+
+.content-wrap section div {padding-top:10px;}
+.content-wrap section ul li {list-style:none; font-size:22px;border-bottom:1px dotted;height:auto;line-height:24px;color:#333;padding:30px;}
+.content-wrap section ul li dl {padding-left:20px;padding-top:10px;display:none;font-weight: 400 }
+.content-wrap section ul li dd {padding-top:10px;font-size:19px}
+.content-wrap section ul li:hover dl {display:block }
+
+
+.no-js .content-wrap section {
+	display: block;
+	padding-bottom: 2em;
+	border-bottom: 1px solid rgba(255,255,255,0.6);
+}
+
+.no-flexbox nav ul {
+	display: block;
+}
+
+.no-flexbox nav ul li {
+	min-width: 15%;
+	display: inline-block;
+}
+
+@media screen and (max-width: 58em) {
+	.tabs nav a.icon span {
+		display: none;
+	}
+	.tabs nav a:before {
+		margin-right: 0;
+	}
+}
+.tabs-style-linemove nav {
+	background: #fff;
+}
+
+.tabs-style-linemove nav li:last-child::before {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 4px;
+	background: #2CC185;
+	content: '';
+	-webkit-transition: -webkit-transform 0.3s;
+	transition: transform 0.3s;
+}
+
+
+.tabs-style-linemove nav li:first-child.tab-current ~ li:last-child::before {
+	-webkit-transform: translate3d(-400%,0,0);
+	transform: translate3d(-400%,0,0);
+}
+
+.tabs-style-linemove nav li:nth-child(2).tab-current ~ li:last-child::before {
+	-webkit-transform: translate3d(-300%,0,0);
+	transform: translate3d(-300%,0,0);
+}
+
+.tabs-style-linemove nav li:nth-child(3).tab-current ~ li:last-child::before {
+	-webkit-transform: translate3d(-200%,0,0);
+	transform: translate3d(-200%,0,0);
+}
+
+.tabs-style-linemove nav li:nth-child(4).tab-current ~ li:last-child::before {
+	-webkit-transform: translate3d(-100%,0,0);
+	transform: translate3d(-100%,0,0);
+}
+
+.tabs-style-linemove nav a {
+	padding: 1em 0;
+	color: #74777b;
+	line-height: 1;
+	-webkit-transition: color 0.3s, -webkit-transform 0.3s; 
+	transition: color 0.3s, transform 0.3s;
+}
+
+.tabs-style-linemove nav li.tab-current a {
+	color: #2CC185;
+	-webkit-transform: translate3d(0,8px,0);
+	transform: translate3d(0,8px,0);
+}
+
+.tabs-style-linemove nav a span {
+	font-weight: 700;
+}
+
+/*schoolLife*/
+#schoolLife {
+	height:670px;
+	width:100%;
+	min-width:1140px;
+	background-color:#58C5C1;
+ 	color:#e7e7e7;
+ 	padding:50px 0 0 0;
+ 	font-family: 'Microsoft Yahei', Arial, Helvetica, sans-serif;
+ }
+ #slBox {
+	margin: 0px auto;
+	width:1140px;
+	height: 90%;
+
+}
+#slTitle {
+	font-size:30px;
+	width:300px;
+	margin:0 auto;
+	text-align:center;
+}
+.bsname{
+	font-size: 20px;
+	font-weight: bold;
+	margin-left:100px;
+	margin-bottom:0px
+}
+.bs li {
+	margin-left:60px;
+	margin-top:0px;
+	margin-bottom:10px;
+	list-style:none;
+	height:auto;
+	line-height:24px;
+	color:#333;
+	font-size:17px;
+}
+
+.date {
+	font-size:20px;
+}
+
+/*workExp*/
+#workExperience {
+	width: 100%;
+	height:670px;
+	background-color:#ccd6eb;
+	padding:80px 0px 0px 0px;
+	min-width:1140px;
+
+}
+#workBox {
+	margin: 0px auto;
+	width: 1140px;
+	height: 90%;
+
+}
+#weTitle {
+	font-size:30px;
+	width:600px; 
+	margin:0 auto; 
+	text-align:center;
+}
+#weTitle h2 {
+	font-size: 30px;
+	color: #222;
+	margin: 0px;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+#weTitle p {
+	margin-top:5px;
+	width: 160px;
+	height:4px;
+	display: inline-block;
+	background:#CF2822;
+}
+
+#jtWork {
+	width:750px; 
+	margin:0 auto; 
+	float:left;
+	color: black
+}
+.workCompany {
+	font-family: 'Courier New', Courier, monospace;
+	font-size:35px;
+	margin-bottom:20px
+}
+.workJob {
+	font-family: 'Courier New', Courier, monospace;
+	font-size:23px;
+	margin:2px;
+}
+.workTime {
+	font-family: 'Courier New', Courier, monospace;
+	font-size:19px;
+	margin:2px
+}
+#Fonseca {
+	width:750px;
+	margin-top:35px;
+	font-family: 'Microsoft Yahei', Arial, Helvetica, sans-serif;
+}
+#Fonseca ul {
+	list-style:none;
+	padding-left:0px;
+	font-size:17px;
+	font-weight:150
+}
+#Fonseca li {
+	margin-bottom: 15px;
+}
+#futureWork {
+	width:300px;
+	float:right;
+	color: black;
+	font-family: 'Microsoft Yahei', Arial, Helvetica, sans-serif;
+}
+
+/*last*/
+#last {
+	background:white;
+	width:100%;
+	height:670px;
+	min-height: 600px;	
+
+}
+#lastWeb {
+	margin: 0px auto;
+	height:300px;
+	min-height: 600px;
+	text-align: center;
+	width:1140px;
+	
+}
+#lastName {
+	margin-bottom:0px;
+	padding-top: 300px;
+	font-size:55px;
+	color:black;
+	font-family: 'Courier New', Courier, monospace;
+}
